@@ -24,7 +24,7 @@
                 img.main-logo {
                     margin-top:25px;
                     height:25px;
-            
+
                 }
                 .search-container {
                     width:450px;
@@ -45,8 +45,9 @@
                 }
                 footer.main-footer  {
                     width:100%;
-                    padding:10px;   
-                    
+                    padding:10px;
+                    position: relative;
+
                 }
                 nav.main-navigation ul {
                     list-style-type:none;
@@ -74,7 +75,7 @@
                 }
                 ul.slider-sm img {
                     width:100%;
-                    height:100px;
+                    height:97.5px;
                 }
                 .middle-content {
                     height:300px;
@@ -90,7 +91,6 @@
                     position: absolute;
                     height: 100%;
                     width: 50%;
-                    background: red;
                     left: 20%;
                 }
                 aside.sidebar-right {
@@ -105,9 +105,9 @@
                 .sidebar-nav li {
                     width:100%;
                     border-bottom:1px solid #CCC;
-                
+
                 }
-             
+
                 .sidebar-nav a {
                     padding:20px;
                     display:block;
@@ -172,7 +172,7 @@
                 }
                 .fs-name-image {
                     position: absolute;
-                    left: 250px; 
+                    margin-left: 20px;
                 }
                 .social-media-icons {
                     list-style-type:none;
@@ -181,7 +181,58 @@
                     float:right;
                 }
                 ul.social-media-icons img {
-                    width:20px;
+                    width:15px;
+                }
+                .footer-contact {
+                  position: absolute;
+                  margin-left: 145px;
+                  top: 51px;
+                  font-size: 13px;
+
+                }
+                .footer-contact a {
+                  text-decoration: none;
+                }
+                .news-left {
+                  width: 70%;
+                  height: 100%;
+                  float: left;
+                }
+                .news-right {
+                  float: right;
+                  width: 30%;
+                  height: 100%;
+                }
+                .latest-news h2 {
+                  font-size: 14px;
+                  font-family: helvetica, arial, sans-serif;
+                  margin: 10px 0 0 7px;
+                }
+                .latest-news p {
+                  margin: 0 7px 0 7px;
+                  font-size: 13px;
+                }
+                .latest-news a {
+                  text-decoration: none;
+                }
+                .news-left p:first-child {
+                  margin-top: 10px;
+                }
+                .news-right ul {
+                  list-style: none;
+                  font-size: 13px;
+                  margin: 0px 7px 0 7px;
+                }
+                .news-right li {
+                  margin-top: 5px;
+                }
+                .news-right li:first-child {
+                  margin-top: 10px;
+                }
+                .sidebar-right h2 {
+                  font-size: 14px;
+                  font-family: helvetica, arial, sans-serif;
+                  margin: 10px 0 0 7px;
                 }
         </style>
     </head>
@@ -229,65 +280,97 @@
                         </ul>
                     </aside>
                     <div class="latest-news">
-
+                      <div class="news-left">
+                        <h2>LATEST NEWS</h2>
+                          <a href="#"><p>Ken Fugelsang, renowned enologist:  built a legacy of winemakers</p></a>
+                          <p>02/22/2017 04:41:24 PM</p>
+                          <a href="#"><p>Great-grandson of Mexican revolutionary Flores-Magón to speak</p></a>
+                          <p>02/18/2017 02:18:57 PM</p>
+                          <a href="#"><p>Campus closed Feb. 20 for Presidents Day</p></a>
+                          <p>02/17/2017 03:20:28 PM</p>
+                          <a href="#"><p>5K run/walk to support physical therapy students Feb. 25</p></a>
+                          <p>02/17/2017 03:19:40 PM</p>
+                          <a href="#"><p>Nursing mobile health services: San Joaquin Feb. 21, Reedley Feb. 23</p></a>
+                          <p>02/17/2017 03:19:03 PM</p>
+                      </div>
+                      <div class="news-right">
+                        <h2>NEWS SOURCES</h2>
+                        <ul>
+                          <li><a href="http://www.thebulldogblog.net/">Bulldog Blog</a></li>
+                          <li><a href="http://fresnostate.edu/advancement/ucomm/campusnews/february-21-2017">Campus Newsletter</a></li>
+                          <li><a href="http://fresnostate.edu/studentaffairs/commencement/">Commencement</a></li>
+                          <li><a href="http://www.fresnostatenews.com/community-newsletter/">Community Newsletter</a></li>
+                          <li><a href="http://www.fresnostate.edu/magazine/">Fresno State Magazine</a></li>
+                          <li><a href="http://www.fresnostatenews.com/">Fresno State News</a></li>
+                          <li><a href="http://www.gobulldogs.com/">Go Bulldogs</a></li>
+                          <li><a href="http://collegian.csufresno.edu/">The Collegian</a></li>
+                        </ul>
+                      </div>
                     </div>
                     <aside class="sidebar-right">
-
+                      <h2>WHAT'S COMING UP</h2>
                     </aside>
-
-                    <p>asdf</p>
                 </div>
             </div>
             <div class="bottom-container">
                 <div class="bottom-item item-1">
-                    <h2 class="bottom-header">Academics</h2>
-                    <img class="bottom-image" src="./img/bottom1.jpg" alt="image1">
-                    <p class="bottom-text">Four Year Scholars</p>
-                    <p class="bottom-text">Program keeps students on fast track to graduation.</p>
-                    <a class="read-more-link" href="#">Read More</a>
+                    <a class="read-more-link" href="http://fresnostate.edu/academics/fouryearscholars/index.html">
+                      <h2 class="bottom-header">Academics</h2>
+                      <img class="bottom-image" src="./img/bottom1.jpg" alt="image1">
+                      <p class="bottom-text">Four Year Scholars</p>
+                      <p class="bottom-text">Program keeps students on fast track to graduation.</p>
+                    Read More</a>
                 </div>
                 <div class="bottom-item item-2">
-                    <h2 class="bottom-header">Student Life</h2>
-                    <img class="bottom-image" src="./img/bottom2.jpg" alt="image1">
-                    <p class="bottom-text">Four Year Scholars</p>
-                    <p class="bottom-text">Program keeps students on fast track to graduation.</p>
-                    <a class="read-more-link" href="#">Read More</a>
+                    <a class="read-more-link" href="http://www.fresnostatenews.com/2016/10/19/student-volunteers-to-rejuvenate-valley-childrens-therapy-garden/">
+                      <h2 class="bottom-header">Student Life</h2>
+                      <img class="bottom-image" src="./img/bottom2.jpg" alt="image1">
+                      <p class="bottom-text">Four Year Scholars</p>
+                      <p class="bottom-text">Program keeps students on fast track to graduation.</p>
+                    Read More</a>
                 </div>
                 <div class="bottom-item item-3">
-                    <h2 class="bottom-header">Alumni</h2>
-                    <img class="bottom-image" src="./img/bottom3.jpg" alt="image1">
-                    <p class="bottom-text">Four Year Scholars</p>
-                    <p class="bottom-text">Program keeps students on fast track to graduation.</p>
-                    <a class="read-more-link" href="#">Read More</a>
+                    <a class="read-more-link" href="https://fresnostatelivewellblog.com/2016/10/10/alumni-highlight-john-hunts-perseverance-gains-him-national-spotlight/">
+                      <h2 class="bottom-header">Alumni</h2>
+                      <img class="bottom-image" src="./img/bottom3.jpg" alt="image1">
+                      <p class="bottom-text">Four Year Scholars</p>
+                      <p class="bottom-text">Program keeps students on fast track to graduation.</p>
+                    Read More</a>
                 </div>
             </div>
             <footer class="main-footer">
                 <div class="footer-container-left">
                     <img src="./img/fs-seal.gif" alt="logo">
                     <img class="fs-name-image" src="./img/fs-name.gif" alt="logo2">
+                    <div class="footer-contact">
+                      <p>5241 N. Maple Ave.</p>
+                      <p>Fresno,CA 93740</p>
+                      <p><b>P</b> 559.278.4240</p><br>
+                      <a href="http://www.fresnostate.edu/home/about/copyright.html" target="_blank">&copy 2017</a>
+                    </div>
                     <ul class="social-media-icons">
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-facebook.png" alt="social media icon"></a>
+                            <a href="https://www.facebook.com/FresnoState/" target="_blank"><img src="./img/32x32-facebook.png" alt="social media icon"></a>
                         </li>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-instagram.png" alt="social media icon"></a>
+                            <a href="https://twitter.com/Fresno_State" target="_blank"><img src="./img/32x32-twitter.png" alt="social media icon"></a>
                         </li>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-linkedin.png" alt="social media icon"></a>
+                            <a href="https://www.instagram.com/fresno_state/" target="_blank"><img src="./img/32x32-instagram.png" alt="social media icon"></a>
                         </li>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-pinterest.png" alt="social media icon"></a>
+                            <a href="https://www.youtube.com/user/fresnostate" target="_blank"><img src="./img/32x32-youtube.png" alt="social media icon"></a>
                         </li>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-youtube.png" alt="social media icon"></a>
+                            <a href="https://www.linkedin.com/edu/school?id=17826" target="_blank"><img src="./img/32x32-linkedin.png" alt="social media icon"></a>
                         </li>
                         <li>
-                            <a href="http://facebook.com" target="_blank"><img src="./img/32x32-facebook.png" alt="social media icon"></a>
+                            <a href="https://www.pinterest.com/fresnostate/" target="_blank"><img src="./img/32x32-pinterest.png" alt="social media icon"></a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-container-right">asdf</div>
             </footer>
-        </div> 
+        </div>
     </body>
 </html>
